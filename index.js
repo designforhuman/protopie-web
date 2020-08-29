@@ -1,6 +1,6 @@
 import {fabric} from 'fabric'
 
-console.log("Welcome to FabricJS")
+console.log("Welcome to FabricJS!")
 
 const canvas = new fabric.Canvas('canvas', {
     width: 600,
