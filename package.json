@@ -6,13 +6,13 @@
   "author": "David Lee <designforhuman@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
+    "@babel/preset-env": "^7.11.0",
     "canvas": "^2.6.1",
     "fabric": "^4.1.0"
   },
   "scripts": {
-    "start": "parcel ./index.html",
-    "build": "parcel build ./index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "babel-core": "^6.26.3"
