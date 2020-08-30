@@ -10,6 +10,7 @@
     "autoprefixer": "^9.8.6",
     "canvas": "^2.6.1",
     "fabric": "^4.1.0",
+    "nav": "^0.0.2",
     "postcss-modules": "^3.2.2",
     "sass": "^1.26.10"
   },

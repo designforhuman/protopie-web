@@ -1,8 +1,11 @@
-import {fabric} from 'fabric'
+import {fabric} from 'fabric';
+import './styles/reset.scss';
+import './styles/grid.scss';
+// import './comp/nav.scss';
+import './comp/nav'
 
 
-
-const initiCanvas = (id) => {
+const initCanvas = (id) => {
     return new fabric.Canvas(id, {
         width: 600,
         height: 600,
@@ -10,7 +13,7 @@ const initiCanvas = (id) => {
     })
 }
 
-const canvas = initiCanvas('canvas')
+const canvas = initCanvas('canvas')
 
 const setBackground = (url, canvas) => {
     fabric.Image.fromURL(url, (img) => {

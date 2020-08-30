@@ -2224,6 +2224,11 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
+dom-queue@~0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/dom-queue/-/dom-queue-0.6.1.tgz#689fdd73525147b12b430f231211b2e515a83c18"
+  integrity sha1-aJ/dc1JRR7ErQw8jEhGy5RWoPBg=
+
 dom-serializer@0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
@@ -3745,6 +3750,13 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+nav@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/nav/-/nav-0.0.2.tgz#7444cf972d3075394a773a883e5ebea5d8aad79e"
+  integrity sha1-dETPly0wdTlKdzqIPl6+pdiq154=
+  dependencies:
+    dom-queue "~0.6.0"
 
 needle@^2.2.1:
   version "2.5.0"

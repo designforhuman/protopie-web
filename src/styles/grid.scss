@@ -1,0 +1,6 @@
+@use '../comp/foundation';
+
+body {
+    display: grid;
+    background-color: foundation.$color-grey-bg;
+}
